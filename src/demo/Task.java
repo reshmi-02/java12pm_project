@@ -117,12 +117,12 @@ public static void circle() {
 	
 	
 	public static void reverseNum() {
-		int num = 123,rev=0;
+		int num = 123,rev=0;        //321
 		
 		while(num!=0) {   // 0!=0
 			int rem=num%10;    //1%10 = 1
 			num=num/10;         //1/10   ->0
-			rev=rev*10+rem;       //rev=32*10 + 1   = 321
+			rev=rev*10+rem;       //rev=32*10 +1   = 321
 		}
 		
 		System.out.println("Reverse the number is "+rev);
@@ -582,7 +582,7 @@ for(char letter:charArray) {
 		
 //		Task.palindrome();
 //		Task.removeDuplicate();
-		Task.prime();
+//		Task.prime();
 //		Task.gender();
 //		Task.ascending();
 //		Task.biggestNum();
@@ -590,7 +590,7 @@ for(char letter:charArray) {
 //		Task.factorial();
 //		Task.naturalNum();
 //		Task.fibonacci();
-//		Task.reverseNum();
+		Task.reverseNum();
 //		Task.boxPattern();
 //		int [] array={12,3,45,67,89};
 //		Task.reverseArray(array);
